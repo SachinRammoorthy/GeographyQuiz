@@ -4072,10 +4072,6 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c985a3447bd051ebe872a68d4669ddf4/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_activity_quiz.xml.flat",
-        "source": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/layout/activity_quiz.xml"
-    },
-    {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },

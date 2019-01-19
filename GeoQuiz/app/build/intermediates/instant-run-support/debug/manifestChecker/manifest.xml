@@ -62,7 +62,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.tflitecamerademo.QuizActivity" />
         <activity android:name="com.example.android.tflitecamerademo.ExploreActivity" />
         <activity android:name="com.example.android.tflitecamerademo.QuizSection" />
         <activity android:name="com.example.android.tflitecamerademo.FlagActivity" />

@@ -6,54 +6,53 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.tflitecamerademo.ExploreActivity">
 
-    <!--
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"> -->
-
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
     <android.support.v7.widget.CardView
-        android:elevation="2dp"
-        android:id="@+id/eiffel"
         android:layout_width="match_parent"
-        app:cardCornerRadius="5dp"
-        android:layout_height="300dp"
-        android:layout_margin="5dp">
+        android:layout_height="50dp"
+        android:id="@+id/searchlayout"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:weightSum="2">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:background="@drawable/eiffel_tower"/>
+            <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/search"
+                android:background="@android:color/transparent"
+                android:hint="Search for anything!"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Eiffel Tower"
-            android:layout_weight="0.25"
-            android:textColor="#000"
-            android:textSize="20dp"
-            android:layout_gravity="bottom"
-            android:padding="20dp" />
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:paddingEnd="20dp"
+                android:id="@+id/searchbtn"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_menu_search"
+                android:layout_gravity="center_horizontal"/>
 
         </LinearLayout>
-    </android.support.v7.widget.CardView>
 
+    </android.support.v7.widget.CardView>
     <android.support.v7.widget.CardView
         android:elevation="2dp"
         android:id="@+id/taj"
-        android:layout_below="@id/eiffel"
         android:layout_width="match_parent"
+        android:layout_below="@id/searchlayout"
         app:cardCornerRadius="5dp"
         android:layout_height="300dp"
         android:layout_margin="5dp">
@@ -119,8 +118,42 @@
 
     <android.support.v7.widget.CardView
         android:elevation="2dp"
-        android:id="@+id/machu"
+        android:id="@+id/eiffel"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
         android:layout_below="@id/statue_of_liberty"
+        android:layout_height="300dp"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/eiffel_tower"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eiffel Tower"
+                android:layout_weight="0.25"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:padding="20dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:id="@+id/machu"
+        android:layout_below="@id/eiffel"
         android:layout_width="match_parent"
         app:cardCornerRadius="5dp"
         android:layout_height="300dp"

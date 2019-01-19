@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
 MERGED from [com.android.support:design:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fd191efcbb56a731acc5a090025a5f5a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/037389c1fab45e56ce20a29e3a194461/AndroidManifest.xml:2:1-11:12
@@ -41,20 +41,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krutartha/.gradl
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c06fb6f7b73e144a6b2cfa5f8b5b281c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e658ded6979cf4667f27ac6aa3d47587/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2e23e383c33445ff042607f08a5db6dc/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
 	package
 		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:17:5-51
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-60:12
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-59:12
 		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:11-69
@@ -171,7 +171,7 @@ ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/Android
 	android:name
 		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:28:22-77
 application
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:30:5-58:19
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:30:5-57:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/037389c1fab45e56ce20a29e3a194461/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/037389c1fab45e56ce20a29e3a194461/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/6ea2011603d5ac511974bfab1cf39c54/AndroidManifest.xml:7:5-20
@@ -238,26 +238,22 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
 		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:50:27-74
-activity#com.example.android.tflitecamerademo.QuizActivity
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:9-50
-	android:name
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:19-47
 activity#com.example.android.tflitecamerademo.ExploreActivity
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:54:9-53
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:9-53
 	android:name
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:54:19-50
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:19-50
 activity#com.example.android.tflitecamerademo.QuizSection
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:55:9-49
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:54:9-49
 	android:name
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:55:19-46
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:54:19-46
 activity#com.example.android.tflitecamerademo.FlagActivity
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:56:9-50
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:55:9-50
 	android:name
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:56:19-47
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:55:19-47
 activity#com.example.android.tflitecamerademo.GKActivity
-ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:57:9-57
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:56:9-57
 	android:name
-		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:57:19-45
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:56:19-45
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:16.0.5] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/5e664d47276cfc66d5e9fd35e1b247f4/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/ecf991ffcb8d74e562a92c30f12f932b/AndroidManifest.xml:23:5-79

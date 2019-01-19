@@ -1,18 +1,3 @@
-/* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-==============================================================================*/
-
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
@@ -67,7 +52,7 @@ import java.util.concurrent.TimeUnit;
 
 /** Basic fragments for the Camera. */
 public class Camera2BasicFragment extends Fragment
-    implements FragmentCompat.OnRequestPermissionsResultCallback {
+        implements FragmentCompat.OnRequestPermissionsResultCallback {
 
   /** Tag for the {@link Log}. */
   private static final String TAG = "TfLiteCameraDemo";
@@ -81,8 +66,11 @@ public class Camera2BasicFragment extends Fragment
   private final Object lock = new Object();
   private boolean runClassifier = false;
   private boolean checkedPermissions = false;
-  private TextView textView;
+  public static TextView textView;
   private ImageClassifier classifier;
+
+  static String myString;
+
 
   /** Max preview width that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_WIDTH = 1920;
@@ -95,26 +83,26 @@ public class Camera2BasicFragment extends Fragment
    * TextureView}.
    */
   private final TextureView.SurfaceTextureListener surfaceTextureListener =
-      new TextureView.SurfaceTextureListener() {
+          new TextureView.SurfaceTextureListener() {
 
-        @Override
-        public void onSurfaceTextureAvailable(SurfaceTexture texture, int width, int height) {
-          openCamera(width, height);
-        }
+            @Override
+            public void onSurfaceTextureAvailable(SurfaceTexture texture, int width, int height) {
+              openCamera(width, height);
+            }
 
-        @Override
-        public void onSurfaceTextureSizeChanged(SurfaceTexture texture, int width, int height) {
-          configureTransform(width, height);
-        }
+            @Override
+            public void onSurfaceTextureSizeChanged(SurfaceTexture texture, int width, int height) {
+              configureTransform(width, height);
+            }
 
-        @Override
-        public boolean onSurfaceTextureDestroyed(SurfaceTexture texture) {
-          return true;
-        }
+            @Override
+            public boolean onSurfaceTextureDestroyed(SurfaceTexture texture) {
+              return true;
+            }
 
-        @Override
-        public void onSurfaceTextureUpdated(SurfaceTexture texture) {}
-      };
+            @Override
+            public void onSurfaceTextureUpdated(SurfaceTexture texture) {}
+          };
 
   /** ID of the current {@link CameraDevice}. */
   private String cameraId;
@@ -133,34 +121,34 @@ public class Camera2BasicFragment extends Fragment
 
   /** {@link CameraDevice.StateCallback} is called when {@link CameraDevice} changes its state. */
   private final CameraDevice.StateCallback stateCallback =
-      new CameraDevice.StateCallback() {
+          new CameraDevice.StateCallback() {
 
-        @Override
-        public void onOpened(@NonNull CameraDevice currentCameraDevice) {
-          // This method is called when the camera is opened.  We start camera preview here.
-          cameraOpenCloseLock.release();
-          cameraDevice = currentCameraDevice;
-          createCameraPreviewSession();
-        }
+            @Override
+            public void onOpened(@NonNull CameraDevice currentCameraDevice) {
+              // This method is called when the camera is opened.  We start camera preview here.
+              cameraOpenCloseLock.release();
+              cameraDevice = currentCameraDevice;
+              createCameraPreviewSession();
+            }
 
-        @Override
-        public void onDisconnected(@NonNull CameraDevice currentCameraDevice) {
-          cameraOpenCloseLock.release();
-          currentCameraDevice.close();
-          cameraDevice = null;
-        }
+            @Override
+            public void onDisconnected(@NonNull CameraDevice currentCameraDevice) {
+              cameraOpenCloseLock.release();
+              currentCameraDevice.close();
+              cameraDevice = null;
+            }
 
-        @Override
-        public void onError(@NonNull CameraDevice currentCameraDevice, int error) {
-          cameraOpenCloseLock.release();
-          currentCameraDevice.close();
-          cameraDevice = null;
-          Activity activity = getActivity();
-          if (null != activity) {
-            activity.finish();
-          }
-        }
-      };
+            @Override
+            public void onError(@NonNull CameraDevice currentCameraDevice, int error) {
+              cameraOpenCloseLock.release();
+              currentCameraDevice.close();
+              cameraDevice = null;
+              Activity activity = getActivity();
+              if (null != activity) {
+                activity.finish();
+              }
+            }
+          };
 
   /** An additional thread for running tasks that shouldn't block the UI. */
   private HandlerThread backgroundThread;
@@ -182,20 +170,20 @@ public class Camera2BasicFragment extends Fragment
 
   /** A {@link CameraCaptureSession.CaptureCallback} that handles events related to capture. */
   private CameraCaptureSession.CaptureCallback captureCallback =
-      new CameraCaptureSession.CaptureCallback() {
+          new CameraCaptureSession.CaptureCallback() {
 
-        @Override
-        public void onCaptureProgressed(
-            @NonNull CameraCaptureSession session,
-            @NonNull CaptureRequest request,
-            @NonNull CaptureResult partialResult) {}
+            @Override
+            public void onCaptureProgressed(
+                    @NonNull CameraCaptureSession session,
+                    @NonNull CaptureRequest request,
+                    @NonNull CaptureResult partialResult) {}
 
-        @Override
-        public void onCaptureCompleted(
-            @NonNull CameraCaptureSession session,
-            @NonNull CaptureRequest request,
-            @NonNull TotalCaptureResult result) {}
-      };
+            @Override
+            public void onCaptureCompleted(
+                    @NonNull CameraCaptureSession session,
+                    @NonNull CaptureRequest request,
+                    @NonNull TotalCaptureResult result) {}
+          };
 
   /**
    * Shows a {@link Toast} on the UI thread for the classification results.
@@ -206,13 +194,32 @@ public class Camera2BasicFragment extends Fragment
     final Activity activity = getActivity();
     if (activity != null) {
       activity.runOnUiThread(
-          new Runnable() {
-            @Override
-            public void run() {
-              textView.setText(text);
-            }
-          });
+              new Runnable() {
+                @Override
+                public void run() {
+                  textView.setText(text);
+                }
+              });
     }
+  }
+
+  public static String getFinalAnswer(){
+    //final Handler handler = new Handler();
+    //handler.postDelayed(new Runnable() {
+      //@Override
+      //public void run() {
+        //try{
+          myString = textView.getText().toString();
+          //return textView.getText().toString();
+        //} catch (NullPointerException e){
+          //myString = "Not found";
+          //return "Not found";
+        //}
+      //}
+    //}, 5000);
+
+    return myString;
+
   }
 
   /**
@@ -236,12 +243,12 @@ public class Camera2BasicFragment extends Fragment
    * @return The optimal {@code Size}, or an arbitrary one if none were big enough
    */
   private static Size chooseOptimalSize(
-      Size[] choices,
-      int textureViewWidth,
-      int textureViewHeight,
-      int maxWidth,
-      int maxHeight,
-      Size aspectRatio) {
+          Size[] choices,
+          int textureViewWidth,
+          int textureViewHeight,
+          int maxWidth,
+          int maxHeight,
+          Size aspectRatio) {
 
     // Collect the supported resolutions that are at least as big as the preview Surface
     List<Size> bigEnough = new ArrayList<>();
@@ -251,8 +258,8 @@ public class Camera2BasicFragment extends Fragment
     int h = aspectRatio.getHeight();
     for (Size option : choices) {
       if (option.getWidth() <= maxWidth
-          && option.getHeight() <= maxHeight
-          && option.getHeight() == option.getWidth() * h / w) {
+              && option.getHeight() <= maxHeight
+              && option.getHeight() == option.getWidth() * h / w) {
         if (option.getWidth() >= textureViewWidth && option.getHeight() >= textureViewHeight) {
           bigEnough.add(option);
         } else {
@@ -280,7 +287,7 @@ public class Camera2BasicFragment extends Fragment
   /** Layout the preview and buttons. */
   @Override
   public View onCreateView(
-      LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+          LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
   }
 
@@ -352,18 +359,18 @@ public class Camera2BasicFragment extends Fragment
         }
 
         StreamConfigurationMap map =
-            characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
+                characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
         if (map == null) {
           continue;
         }
 
         // // For still image captures, we use the largest available size.
         Size largest =
-            Collections.max(
-                Arrays.asList(map.getOutputSizes(ImageFormat.JPEG)), new CompareSizesByArea());
+                Collections.max(
+                        Arrays.asList(map.getOutputSizes(ImageFormat.JPEG)), new CompareSizesByArea());
         imageReader =
-            ImageReader.newInstance(
-                largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/ 2);
+                ImageReader.newInstance(
+                        largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/ 2);
 
         // Find out if we need to swap dimension to get the preview size relative to sensor
         // coordinate.
@@ -412,13 +419,13 @@ public class Camera2BasicFragment extends Fragment
         }
 
         previewSize =
-            chooseOptimalSize(
-                map.getOutputSizes(SurfaceTexture.class),
-                rotatedPreviewWidth,
-                rotatedPreviewHeight,
-                maxPreviewWidth,
-                maxPreviewHeight,
-                largest);
+                chooseOptimalSize(
+                        map.getOutputSizes(SurfaceTexture.class),
+                        rotatedPreviewWidth,
+                        rotatedPreviewHeight,
+                        maxPreviewWidth,
+                        maxPreviewHeight,
+                        largest);
 
         // We fit the aspect ratio of TextureView to the size of preview we picked.
         int orientation = getResources().getConfiguration().orientation;
@@ -437,7 +444,7 @@ public class Camera2BasicFragment extends Fragment
       // Currently an NPE is thrown when the Camera2API is used but not supported on the
       // device this code runs.
       ErrorDialog.newInstance(getString(R.string.camera_error))
-          .show(getChildFragmentManager(), FRAGMENT_DIALOG);
+              .show(getChildFragmentManager(), FRAGMENT_DIALOG);
     }
   }
 
@@ -445,9 +452,9 @@ public class Camera2BasicFragment extends Fragment
     Activity activity = getActivity();
     try {
       PackageInfo info =
-          activity
-              .getPackageManager()
-              .getPackageInfo(activity.getPackageName(), PackageManager.GET_PERMISSIONS);
+              activity
+                      .getPackageManager()
+                      .getPackageInfo(activity.getPackageName(), PackageManager.GET_PERMISSIONS);
       String[] ps = info.requestedPermissions;
       if (ps != null && ps.length > 0) {
         return ps;
@@ -486,7 +493,7 @@ public class Camera2BasicFragment extends Fragment
   private boolean allPermissionsGranted() {
     for (String permission : getRequiredPermissions()) {
       if (ContextCompat.checkSelfPermission(getActivity(), permission)
-          != PackageManager.PERMISSION_GRANTED) {
+              != PackageManager.PERMISSION_GRANTED) {
         return false;
       }
     }
@@ -495,7 +502,7 @@ public class Camera2BasicFragment extends Fragment
 
   @Override
   public void onRequestPermissionsResult(
-      int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+          int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
     super.onRequestPermissionsResult(requestCode, permissions, grantResults);
   }
 
@@ -550,17 +557,17 @@ public class Camera2BasicFragment extends Fragment
 
   /** Takes photos and classify them periodically. */
   private Runnable periodicClassify =
-      new Runnable() {
-        @Override
-        public void run() {
-          synchronized (lock) {
-            if (runClassifier) {
-              classifyFrame();
+          new Runnable() {
+            @Override
+            public void run() {
+              synchronized (lock) {
+                if (runClassifier) {
+                  classifyFrame();
+                }
+              }
+              backgroundHandler.post(periodicClassify);
             }
-          }
-          backgroundHandler.post(periodicClassify);
-        }
-      };
+          };
 
   /** Creates a new {@link CameraCaptureSession} for camera preview. */
   private void createCameraPreviewSession() {
@@ -580,39 +587,39 @@ public class Camera2BasicFragment extends Fragment
 
       // Here, we create a CameraCaptureSession for camera preview.
       cameraDevice.createCaptureSession(
-          Arrays.asList(surface),
-          new CameraCaptureSession.StateCallback() {
+              Arrays.asList(surface),
+              new CameraCaptureSession.StateCallback() {
 
-            @Override
-            public void onConfigured(@NonNull CameraCaptureSession cameraCaptureSession) {
-              // The camera is already closed
-              if (null == cameraDevice) {
-                return;
-              }
+                @Override
+                public void onConfigured(@NonNull CameraCaptureSession cameraCaptureSession) {
+                  // The camera is already closed
+                  if (null == cameraDevice) {
+                    return;
+                  }
 
-              // When the session is ready, we start displaying the preview.
-              captureSession = cameraCaptureSession;
-              try {
-                // Auto focus should be continuous for camera preview.
-                previewRequestBuilder.set(
-                    CaptureRequest.CONTROL_AF_MODE,
-                    CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE);
+                  // When the session is ready, we start displaying the preview.
+                  captureSession = cameraCaptureSession;
+                  try {
+                    // Auto focus should be continuous for camera preview.
+                    previewRequestBuilder.set(
+                            CaptureRequest.CONTROL_AF_MODE,
+                            CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE);
 
-                // Finally, we start displaying the camera preview.
-                previewRequest = previewRequestBuilder.build();
-                captureSession.setRepeatingRequest(
-                    previewRequest, captureCallback, backgroundHandler);
-              } catch (CameraAccessException e) {
-                e.printStackTrace();
-              }
-            }
+                    // Finally, we start displaying the camera preview.
+                    previewRequest = previewRequestBuilder.build();
+                    captureSession.setRepeatingRequest(
+                            previewRequest, captureCallback, backgroundHandler);
+                  } catch (CameraAccessException e) {
+                    e.printStackTrace();
+                  }
+                }
 
-            @Override
-            public void onConfigureFailed(@NonNull CameraCaptureSession cameraCaptureSession) {
-              showToast("Failed");
-            }
-          },
-          null);
+                @Override
+                public void onConfigureFailed(@NonNull CameraCaptureSession cameraCaptureSession) {
+                  showToast("Failed");
+                }
+              },
+              null);
     } catch (CameraAccessException e) {
       e.printStackTrace();
     }
@@ -641,9 +648,9 @@ public class Camera2BasicFragment extends Fragment
       bufferRect.offset(centerX - bufferRect.centerX(), centerY - bufferRect.centerY());
       matrix.setRectToRect(viewRect, bufferRect, Matrix.ScaleToFit.FILL);
       float scale =
-          Math.max(
-              (float) viewHeight / previewSize.getHeight(),
-              (float) viewWidth / previewSize.getWidth());
+              Math.max(
+                      (float) viewHeight / previewSize.getHeight(),
+                      (float) viewWidth / previewSize.getWidth());
       matrix.postScale(scale, scale, centerX, centerY);
       matrix.postRotate(90 * (rotation - 2), centerX, centerY);
     } else if (Surface.ROTATION_180 == rotation) {
@@ -659,7 +666,7 @@ public class Camera2BasicFragment extends Fragment
       return;
     }
     Bitmap bitmap =
-        textureView.getBitmap(ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
+            textureView.getBitmap(ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
     String textToShow = classifier.classifyFrame(bitmap);
     bitmap.recycle();
     showToast(textToShow);
@@ -672,7 +679,7 @@ public class Camera2BasicFragment extends Fragment
     public int compare(Size lhs, Size rhs) {
       // We cast here to ensure the multiplications won't overflow
       return Long.signum(
-          (long) lhs.getWidth() * lhs.getHeight() - (long) rhs.getWidth() * rhs.getHeight());
+              (long) lhs.getWidth() * lhs.getHeight() - (long) rhs.getWidth() * rhs.getHeight());
     }
   }
 
@@ -693,16 +700,16 @@ public class Camera2BasicFragment extends Fragment
     public Dialog onCreateDialog(Bundle savedInstanceState) {
       final Activity activity = getActivity();
       return new AlertDialog.Builder(activity)
-          .setMessage(getArguments().getString(ARG_MESSAGE))
-          .setPositiveButton(
-              android.R.string.ok,
-              new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                  activity.finish();
-                }
-              })
-          .create();
+              .setMessage(getArguments().getString(ARG_MESSAGE))
+              .setPositiveButton(
+                      android.R.string.ok,
+                      new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                          activity.finish();
+                        }
+                      })
+              .create();
     }
   }
 }

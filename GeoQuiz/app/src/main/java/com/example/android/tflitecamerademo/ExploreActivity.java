@@ -1,9 +1,13 @@
 package com.example.android.tflitecamerademo;
 
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -18,6 +22,9 @@ public class ExploreActivity extends AppCompatActivity {
     CardView chichenItza;
     CardView colosseum;
     CardView pyramids;
+
+    ImageButton searchBtn;
+    EditText searchText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +43,17 @@ public class ExploreActivity extends AppCompatActivity {
         machuPicchu = (CardView) findViewById(R.id.machu);
         colosseum = (CardView) findViewById(R.id.colosseum);
         pyramids = (CardView) findViewById(R.id.pyramids);
+
+        searchBtn = (ImageButton) findViewById(R.id.searchbtn);
+        searchText = (EditText) findViewById(R.id.search);
+
+        searchBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myRef.setValue(searchText.getText().toString());
+                Toast.makeText(ExploreActivity.this, "Viewing " + searchText.getText().toString() + " on Liquid Galaxy.", Toast.LENGTH_LONG).show();
+            }
+        });
 
 
         eiffel.setOnClickListener(new View.OnClickListener() {
