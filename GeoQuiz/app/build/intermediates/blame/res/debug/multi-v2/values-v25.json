@@ -4,39 +4,7 @@
             "outputFile": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v25/values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/sachin_rammoorthy/tensorflow-for-poets-2/android/tflite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v25/values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/res/values-v25/values-v25.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

@@ -1,40 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
-            "map": [
-                {
-                    "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1855,2059,2264,2465,2672,2874,3079,3351,3551",
-                        "endColumns": "204,199,208,184,201,214,172,176,183,203,204,200,206,201,204,271,199,178",
-                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1850,2054,2259,2460,2667,2869,3074,3346,3546,3725"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,310,510,719,904,1106,1321,1494,1671,1855,2059,2264,2465,2672,2874,3079,3351,3551",
-                        "endColumns": "204,199,208,184,201,214,172,176,183,203,204,200,206,201,204,271,199,178",
-                        "endOffsets": "305,505,714,899,1101,1316,1489,1666,1850,2054,2259,2460,2667,2869,3074,3346,3546,3725"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/sachin_rammoorthy/tensorflow-for-poets-2/android/tflite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
-            "map": [
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

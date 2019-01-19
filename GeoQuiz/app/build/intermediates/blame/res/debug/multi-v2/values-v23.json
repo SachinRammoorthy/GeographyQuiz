@@ -1,80 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
-            "map": [
-                {
-                    "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                },
-                {
-                    "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/64ded2432ed3930a9d210b90c004cc38/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "2646",
-                        "endLines": "39",
-                        "endColumns": "12",
-                        "endOffsets": "2791"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/sachin_rammoorthy/tensorflow-for-poets-2/android/tflite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
-            "map": [
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3561f916d25f4d177dbd3864b527b589/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "2646",
-                        "endLines": "39",
-                        "endColumns": "12",
-                        "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3561f916d25f4d177dbd3864b527b589/res/values-v23/values-v23.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3e3389774f7a5bb185105e78ee407b39/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -90,17 +31,6 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]

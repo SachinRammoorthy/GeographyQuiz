@@ -9,59 +9,33 @@
 
 
 
-
-
-
         <android.support.v7.widget.CardView
             android:elevation="2dp"
             android:id="@+id/explore"
             android:layout_weight="1"
             android:layout_width="match_parent"
-            app:cardCornerRadius="5d"
+            app:cardCornerRadius="5dp"
             android:layout_height="0dp"
-            android:layout_margin="5dp"
-
-            >
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                >
-
-
-
+            android:layout_margin="5dp">
 
 
                 <ImageView
                     android:id="@+id/img"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/eiffel_tower"
-
-                    />
+                    android:background="@drawable/eiffel_tower"/>
 
                 <TextView
                     android:id="@+id/name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="EXPLORE"
+                    android:text="Explore"
                     android:textColor="#ffffff"
                     android:textSize="20dp"
-                    android:layout_alignParentBottom="true"
-                    android:padding="20dp"
-                    />
-
-                <TextView
-                    android:id="@+id/description_explore"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A brief description about the feature."
-                    android:layout_below="@id/name"
-                    />
+                    android:layout_gravity="bottom"
+                    android:padding="20dp" />
 
         </android.support.v7.widget.CardView>
-    </android.support.v7.widget.CardView>
 
 
 
@@ -83,9 +57,7 @@
                     android:id="@+id/img_quiz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/google_earth"
-
-                    />
+                    android:background="@drawable/google_earth" />
 
                 <TextView
                     android:id="@+id/name_quiz"
@@ -95,16 +67,15 @@
                     android:textColor="#ffffff"
                     android:textSize="20dp"
                     android:layout_alignParentBottom="true"
-                    android:padding="20dp"
-                    />
+                    android:padding="20dp" />
 
                 <TextView
                     android:id="@+id/description_quiz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A brief description about the feature."
-                    android:layout_below="@id/name_quiz"
-                    />
+                    android:layout_below="@id/name_quiz" />
+
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
