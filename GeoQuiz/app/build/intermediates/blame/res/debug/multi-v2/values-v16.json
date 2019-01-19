@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7e5a6cec7a9ca79bc3f483a00c780c5/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/sachin_rammoorthy/tensorflow-for-poets-2/android/tflite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7e5a6cec7a9ca79bc3f483a00c780c5/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

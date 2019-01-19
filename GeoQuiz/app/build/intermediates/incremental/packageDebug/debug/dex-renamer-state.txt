@@ -1,0 +1,7 @@
+#Sat Jan 19 17:41:46 IST 2019
+base.0=/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/transforms/dexMerger/debug/1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex
+base.1=/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/transforms/dexMerger/debug/3
+file.0=/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex
