@@ -51,7 +51,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".QuizActivity" />
-        <activity android:name=".ExploreActivity"></activity>
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".QuizSection" />
+        <activity android:name=".FlagActivity" />
+        <activity android:name=".GKActivity"></activity>
     </application>
 
 </manifest>
