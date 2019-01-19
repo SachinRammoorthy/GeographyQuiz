@@ -1,159 +1,163 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-MERGED from [com.android.support:design:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fc349277717c954ee71680a3cf31d092/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c5bea090ca6a6339f0d2ca741600048c/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v13:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/48802ef2d4fe782b55426efdd438eddb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3561f916d25f4d177dbd3864b527b589/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e0711142e2ad62c9bc363963d7c8bbb1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/7d59bcd864c23515f9916f1fbb354581/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4a0be19575497082db579cc56d1769de/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/dcf17cad6f5335ab3fae695d9ea63648/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d6a54dfc24f432e2dc3726a289b60643/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7006bddb39366e5a6b5dfb30d2d6e3e2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b861e4aa5daf89e407b36ae2f3714b53/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b900d99a38c4f1f4d41dc02fe08119e2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d32045919ef5a3bcb2116ace089cab06/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7e5a6cec7a9ca79bc3f483a00c780c5/AndroidManifest.xml:17:1-22:12
-MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/80653e960241369d223ab20d5d833d6d/AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4690b130810ea2a0a8cae8996102b1cc/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1bbd69b4df721ef84335ac363f69fbed/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ab93a3da2c489b0d45d153ebce193d5f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1361ac716422ae460eec9a007d0241c5/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+MERGED from [com.android.support:design:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/88e0e6099efeb6bdb6b292765f60d86f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/d686a586891d363c7037051735f6a862/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/736b6a7fc8675d296885bb20ae8c2bcd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/64ded2432ed3930a9d210b90c004cc38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/734b8888c8ad835c08a280e8e6cb0312/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d99bf91b3ffe034070bb0f11c01eaf19/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba836fc30cad5d535d668ca3bd5be857/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6487c8e08cabdcd2b1e9e832f4ab9f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0f9dbb6857516b7494fb3bcf657d8de3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ae61476bcffe5d9a1ec70fe2729c21a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/bdfa30a124ceaabab2475d5e2817070e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/493535d3872300f036c3ba7c5b8bc4be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/80f6fa62c3830cd79eeba7de14375893/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9600782d6be8d09cf060f81fb6bac1a4/AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/a0a38d0046cecc6ffa40930ee95cad8b/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/137f6b9521000699fb1cec52c505c1cb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7fd56f56d8773994455e2def411ece9a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f73ddede9dc91be850d69de705a93860/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7f811967f06b577111e138ea29d8752f/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
 	package
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:17:5-51
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:17:5-51
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-54:12
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:1-56:12
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fc349277717c954ee71680a3cf31d092/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fc349277717c954ee71680a3cf31d092/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c8e2ea10a099d4e285d9ffba655a0b95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c5bea090ca6a6339f0d2ca741600048c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c5bea090ca6a6339f0d2ca741600048c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v13:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/48802ef2d4fe782b55426efdd438eddb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/48802ef2d4fe782b55426efdd438eddb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3561f916d25f4d177dbd3864b527b589/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/3561f916d25f4d177dbd3864b527b589/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e0711142e2ad62c9bc363963d7c8bbb1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e0711142e2ad62c9bc363963d7c8bbb1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/7d59bcd864c23515f9916f1fbb354581/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/7d59bcd864c23515f9916f1fbb354581/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4a0be19575497082db579cc56d1769de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4a0be19575497082db579cc56d1769de/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/dcf17cad6f5335ab3fae695d9ea63648/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/dcf17cad6f5335ab3fae695d9ea63648/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d6a54dfc24f432e2dc3726a289b60643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d6a54dfc24f432e2dc3726a289b60643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7006bddb39366e5a6b5dfb30d2d6e3e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7006bddb39366e5a6b5dfb30d2d6e3e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b861e4aa5daf89e407b36ae2f3714b53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b861e4aa5daf89e407b36ae2f3714b53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b900d99a38c4f1f4d41dc02fe08119e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b900d99a38c4f1f4d41dc02fe08119e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d32045919ef5a3bcb2116ace089cab06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d32045919ef5a3bcb2116ace089cab06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7e5a6cec7a9ca79bc3f483a00c780c5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7e5a6cec7a9ca79bc3f483a00c780c5/AndroidManifest.xml:20:5-44
-MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/80653e960241369d223ab20d5d833d6d/AndroidManifest.xml:5:5-7:41
-MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/80653e960241369d223ab20d5d833d6d/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4690b130810ea2a0a8cae8996102b1cc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4690b130810ea2a0a8cae8996102b1cc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1bbd69b4df721ef84335ac363f69fbed/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1bbd69b4df721ef84335ac363f69fbed/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ab93a3da2c489b0d45d153ebce193d5f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ab93a3da2c489b0d45d153ebce193d5f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1361ac716422ae460eec9a007d0241c5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1361ac716422ae460eec9a007d0241c5/AndroidManifest.xml:20:5-44
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
-INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/88e0e6099efeb6bdb6b292765f60d86f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/88e0e6099efeb6bdb6b292765f60d86f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/83acd3368b809c96eee6b1faf300b42a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/d686a586891d363c7037051735f6a862/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/d686a586891d363c7037051735f6a862/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/736b6a7fc8675d296885bb20ae8c2bcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/736b6a7fc8675d296885bb20ae8c2bcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/64ded2432ed3930a9d210b90c004cc38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/64ded2432ed3930a9d210b90c004cc38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/734b8888c8ad835c08a280e8e6cb0312/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/734b8888c8ad835c08a280e8e6cb0312/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d99bf91b3ffe034070bb0f11c01eaf19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d99bf91b3ffe034070bb0f11c01eaf19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba836fc30cad5d535d668ca3bd5be857/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba836fc30cad5d535d668ca3bd5be857/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6487c8e08cabdcd2b1e9e832f4ab9f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6487c8e08cabdcd2b1e9e832f4ab9f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0f9dbb6857516b7494fb3bcf657d8de3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0f9dbb6857516b7494fb3bcf657d8de3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ae61476bcffe5d9a1ec70fe2729c21a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ae61476bcffe5d9a1ec70fe2729c21a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/bdfa30a124ceaabab2475d5e2817070e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/bdfa30a124ceaabab2475d5e2817070e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/493535d3872300f036c3ba7c5b8bc4be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/493535d3872300f036c3ba7c5b8bc4be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/80f6fa62c3830cd79eeba7de14375893/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/80f6fa62c3830cd79eeba7de14375893/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9600782d6be8d09cf060f81fb6bac1a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9600782d6be8d09cf060f81fb6bac1a4/AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/a0a38d0046cecc6ffa40930ee95cad8b/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/a0a38d0046cecc6ffa40930ee95cad8b/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/137f6b9521000699fb1cec52c505c1cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/137f6b9521000699fb1cec52c505c1cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7fd56f56d8773994455e2def411ece9a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7fd56f56d8773994455e2def411ece9a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f73ddede9dc91be850d69de705a93860/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f73ddede9dc91be850d69de705a93860/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7f811967f06b577111e138ea29d8752f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7f811967f06b577111e138ea29d8752f/AndroidManifest.xml:20:5-44
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:5-44
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:15-41
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:19:15-41
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:21:5-65
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:21:22-62
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:21:22-62
 uses-feature#android.hardware.camera
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:23:5-60
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:23:5-60
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:23:19-57
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:23:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:24:5-70
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:24:5-70
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:24:19-67
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:24:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:26:5-81
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:26:5-81
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:26:22-78
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:27:5-75
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:27:5-75
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:27:22-72
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:27:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:28:5-80
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:28:5-80
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:28:22-77
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:28:22-77
 application
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:30:5-52:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c5bea090ca6a6339f0d2ca741600048c/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/c5bea090ca6a6339f0d2ca741600048c/AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/80653e960241369d223ab20d5d833d6d/AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/80653e960241369d223ab20d5d833d6d/AndroidManifest.xml:9:5-20
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:30:5-54:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/d686a586891d363c7037051735f6a862/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/d686a586891d363c7037051735f6a862/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/a0a38d0046cecc6ffa40930ee95cad8b/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/krutartha/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/a0a38d0046cecc6ffa40930ee95cad8b/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:33:9-41
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:33:9-41
 	android:icon
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:32:9-43
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:32:9-43
 	android:allowBackup
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:31:9-35
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:34:9-45
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:34:9-40
 activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:36:9-44:20
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:35:9-43:20
 	android:label
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:38:13-45
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:37:13-43
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:37:13-43
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:36:13-43
 intent-filter#android.intent.action.MAIN
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:39:13-43:29
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:40:17-69
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:39:25-66
 activity#com.example.android.tflitecamerademo.StartActivity
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:45:9-51:20
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:44:9-52:20
 	android:theme
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:45:49-79
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:46:13-44
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:45:19-48
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:45:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:47:13-51:29
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:50:27-74
+activity#com.example.android.tflitecamerademo.QuizActivity
+ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:9-59
+	android:name
+		ADDED from /Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/AndroidManifest.xml:53:19-47
