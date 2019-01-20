@@ -67,21 +67,37 @@ public class CameraActivity extends Activity {
     draw5 = (LinearLayout) findViewById(R.id.draw5);
 
     checkAnswerOne();
-      final Handler handler = new Handler();
+
+    /*final Handler handler1 = new Handler();
+    handler1.postDelayed(new Runnable() {
+      @Override
+      public void run() {
+        checkAnswerOne();
+        draw3.setVisibility(View.GONE);
+        draw4.setVisibility(View.VISIBLE);
+      }
+    }, 12000);*/
+
+
+      /*final Handler handler = new Handler();
       handler.postDelayed(new Runnable() {
           @Override
           public void run() {
               checkAnswerThree();
+            draw3.setVisibility(View.GONE);
+            draw4.setVisibility(View.VISIBLE);
           }
-      }, 12000);
+      }, 24000);
 
       final Handler handler2 = new Handler();
       handler2.postDelayed(new Runnable() {
           @Override
           public void run() {
               checkAnswerFour();
+            draw4.setVisibility(View.GONE);
+            draw5.setVisibility(View.VISIBLE);
           }
-      }, 24000);
+      }, 36000);
 
       final Handler handler3 = new Handler();
       handler3.postDelayed(new Runnable() {
@@ -89,7 +105,7 @@ public class CameraActivity extends Activity {
           public void run() {
               checkAnswerFive();
           }
-      }, 36000);
+      }, 48000);*/
 
       /*final Handler handler4 = new Handler();
       handler4.postDelayed(new Runnable() {
@@ -133,20 +149,21 @@ public class CameraActivity extends Activity {
             Toast.makeText(CameraActivity.this, "That's right! Viewing on LG", Toast.LENGTH_LONG).show();
             //Switch layout and call next method
 
-            draw1.setVisibility(View.GONE);
-            draw3.setVisibility(View.VISIBLE);
             //checkAnswerTwo();
 
           } else {
             Toast.makeText(CameraActivity.this, "Oops! Right answer on LG", Toast.LENGTH_LONG).show();
           }
+          draw1.setVisibility(View.GONE);
+          draw3.setVisibility(View.VISIBLE);
         } catch (NullPointerException e){
           Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
           //return "Not found";
         }
         myRef.setValue("India");
+        checkAnswerThree();
       }
-    }, 10000);
+    }, 12000);
   }
 
 
@@ -189,20 +206,21 @@ public class CameraActivity extends Activity {
             Toast.makeText(CameraActivity.this, "That's right! Viewing on LG", Toast.LENGTH_LONG).show();
             //Switch layout and call next method
 
-            draw3.setVisibility(View.GONE);
-            draw4.setVisibility(View.VISIBLE);
             //checkAnswerFour();
 
           } else {
             Toast.makeText(CameraActivity.this, "Oops! Right answer on LG", Toast.LENGTH_LONG).show();
           }
+          draw3.setVisibility(View.GONE);
+          draw4.setVisibility(View.VISIBLE);
         } catch (NullPointerException e){
           Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
           //return "Not found";
         }
         myRef.setValue("Taiwan");
+        checkAnswerFour();
       }
-    }, 10000);
+    }, 12000);
   }
 
 
@@ -224,13 +242,16 @@ public class CameraActivity extends Activity {
           } else {
             Toast.makeText(CameraActivity.this, "Oops! Right answer on LG", Toast.LENGTH_LONG).show();
           }
+          draw4.setVisibility(View.GONE);
+          draw5.setVisibility(View.VISIBLE);
         } catch (NullPointerException e){
           Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
           //return "Not found";
         }
         myRef.setValue("Sri Lanka");
+        checkAnswerFive();
       }
-    }, 10000);
+    }, 12000);
   }
 
 
@@ -245,18 +266,19 @@ public class CameraActivity extends Activity {
             Toast.makeText(CameraActivity.this, "That's right! Viewing on LG", Toast.LENGTH_LONG).show();
             //Switch layout and call next method
 
-            startActivity(new Intent(CameraActivity.this, StartActivity.class));
 
           } else {
             Toast.makeText(CameraActivity.this, "Oops! Right answer on LG", Toast.LENGTH_LONG).show();
           }
+          startActivity(new Intent(CameraActivity.this, StartActivity.class));
+
         } catch (NullPointerException e){
           Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
           //return "Not found";
         }
         myRef.setValue("Australia");
       }
-    }, 10000);
+    }, 12000);
   }
 
 
