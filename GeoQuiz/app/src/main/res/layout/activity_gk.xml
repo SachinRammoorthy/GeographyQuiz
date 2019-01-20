@@ -1,9 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.tflitecamerademo.GKActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gkq1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the fourth most populated country in the world?"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <EditText
+            android:id="@+id/gket1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/gksub_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gkq2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where is the world's tallest building located?"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/gksub_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gkq3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the world's longest river?"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/gksub_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gkq4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the capital of Greece?"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/gksub_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gkq5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which is the most visited country in the world?"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/gksub_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/results"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/stats"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

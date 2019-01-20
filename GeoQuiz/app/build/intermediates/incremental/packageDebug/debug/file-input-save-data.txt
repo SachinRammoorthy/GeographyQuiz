@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 20 02:31:16 IST 2019
+#Sun Jan 20 07:14:29 IST 2019
 210.set=ANDROID_RESOURCE
 282.file=/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/design_layout_snackbar.xml
 14.set=ANDROID_RESOURCE

@@ -60,6 +60,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Eiffel Tower");
+                Toast.makeText(ExploreActivity.this, "Viewing Eiffel Tower on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -67,6 +68,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Taj Mahal");
+                Toast.makeText(ExploreActivity.this, "Viewing Taj Mahal on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -74,6 +76,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Machu Picchu");
+                Toast.makeText(ExploreActivity.this, "Viewing Machu Picchu on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -81,6 +84,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Christ the Redeemer");
+                Toast.makeText(ExploreActivity.this, "Viewing Christ the Redeemer on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -88,6 +92,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Chichen Itza");
+                Toast.makeText(ExploreActivity.this, "Viewing Chichen Itza on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -95,6 +100,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Statue of Liberty");
+                Toast.makeText(ExploreActivity.this, "Viewing Statue of Liberty on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -102,6 +108,7 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("The Great Pyramid of Giza");
+                Toast.makeText(ExploreActivity.this, "Viewing the pyramids on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -109,11 +116,10 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myRef.setValue("Colosseum");
+                Toast.makeText(ExploreActivity.this, "Viewing the Colosseum on Liquid Galaxy.", Toast.LENGTH_LONG).show();
             }
         });
 
-
-        //myRef.setValue("India");
     }
 
 
