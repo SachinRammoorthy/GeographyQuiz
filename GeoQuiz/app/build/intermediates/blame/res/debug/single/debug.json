@@ -24,12 +24,12 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/color/abc_search_url_text.xml"
-    },
-    {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
@@ -44,12 +44,12 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/64bf050386d4dcf3087942658cd39774/res/drawable-hdpi-v4/notification_bg_normal.9.png"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/64bf050386d4dcf3087942658cd39774/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -64,12 +64,12 @@
         "source": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/drawable-xxhdpi/macchu.jpg"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3657e57882b6e96db8e1268941841744/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3657e57882b6e96db8e1268941841744/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -320,12 +320,12 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f84b540cf3cc4c35a272ab5ac629d354/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
@@ -368,12 +368,12 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
@@ -428,16 +428,16 @@
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/958f21a68e3819ee9ef6e613059284d2/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -472,16 +472,16 @@
         "source": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/drawable-mdpi/ic_action_info.png"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_abc_tooltip.xml.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/layout/abc_tooltip.xml"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -572,12 +572,12 @@
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
@@ -608,12 +608,12 @@
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fd191efcbb56a731acc5a090025a5f5a/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/958f21a68e3819ee9ef6e613059284d2/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
@@ -856,12 +856,12 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -872,12 +872,12 @@
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f84b540cf3cc4c35a272ab5ac629d354/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/9553bd6fa19688c952f799e5e7ccd114/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -908,24 +908,24 @@
         "source": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c985a3447bd051ebe872a68d4669ddf4/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3657e57882b6e96db8e1268941841744/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c985a3447bd051ebe872a68d4669ddf4/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -960,12 +960,12 @@
         "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_info.png.flat",
         "source": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/drawable-hdpi/ic_action_info.png"
+    },
+    {
+        "merged": "/Users/sachin_rammoorthy/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/88246845a36a42e4eaec004b5366eb8c/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -996,16 +996,16 @@
         "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3657e57882b6e96db8e1268941841744/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
+        "source": "/Users/krutartha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/889e9b36ccacfe6facc6fb9e0d0253fd/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/Users/krutartha/Downloads/GeographyQuiz/GeoQuiz/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",

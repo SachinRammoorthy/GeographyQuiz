@@ -61,7 +61,7 @@ public class CameraActivity extends Activity {
      sample = (TextView) findViewById(R.id.sample);
 
     draw1 = (LinearLayout) findViewById(R.id.draw1);
-    draw2 = (LinearLayout) findViewById(R.id.draw2);
+    //draw2 = (LinearLayout) findViewById(R.id.draw2);
     draw3 = (LinearLayout) findViewById(R.id.draw3);
     draw4 = (LinearLayout) findViewById(R.id.draw4);
     draw5 = (LinearLayout) findViewById(R.id.draw5);
@@ -71,34 +71,34 @@ public class CameraActivity extends Activity {
       handler.postDelayed(new Runnable() {
           @Override
           public void run() {
-              checkAnswerTwo();
+              checkAnswerThree();
           }
-      }, 10000);
+      }, 12000);
 
       final Handler handler2 = new Handler();
       handler2.postDelayed(new Runnable() {
           @Override
           public void run() {
-              checkAnswerThree();
+              checkAnswerFour();
           }
-      }, 20000);
+      }, 24000);
 
       final Handler handler3 = new Handler();
       handler3.postDelayed(new Runnable() {
           @Override
           public void run() {
-              checkAnswerFour();
+              checkAnswerFive();
           }
-      }, 30000);
+      }, 36000);
 
-      final Handler handler4 = new Handler();
+      /*final Handler handler4 = new Handler();
       handler4.postDelayed(new Runnable() {
           @Override
           public void run() {
               checkAnswerFive();
               //Do something after 100ms
           }
-      }, 40000);
+      }, 40000);*/
 
     //Start a timer for 2 s
       //      After 2 seconds, get the value of textview, and check.
@@ -134,7 +134,7 @@ public class CameraActivity extends Activity {
             //Switch layout and call next method
 
             draw1.setVisibility(View.GONE);
-            draw2.setVisibility(View.VISIBLE);
+            draw3.setVisibility(View.VISIBLE);
             //checkAnswerTwo();
 
           } else {
@@ -150,7 +150,7 @@ public class CameraActivity extends Activity {
   }
 
 
-  public void checkAnswerTwo(){
+  /*public void checkAnswerTwo(){
     final Handler handler = new Handler();
     handler.postDelayed(new Runnable() {
       @Override
@@ -175,7 +175,7 @@ public class CameraActivity extends Activity {
         myRef.setValue("Saudi Arabia");
       }
     }, 10000);
-  }
+  } */
 
 
   public void checkAnswerThree(){
